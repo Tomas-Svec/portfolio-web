@@ -1,0 +1,13 @@
+<header class="bg-primary-800 text-text-light dark:bg-primary-900 dark:text-text-dark">
+    <nav class="flex justify-between items-center p-4">
+      <div class="flex space-x-4">
+        <button routerLink="/" class="hover:underline">Inicio</button>
+        <button routerLink="/about" class="hover:underline">Sobre Mí</button>
+        <button routerLink="/projects" class="hover:underline">Proyectos</button>
+        <button routerLink="/contact" class="hover:underline">Contacto</button>
+      </div>
+      <button (click)="toggleDarkMode()" class="p-2 bg-secondary-500 rounded hover:bg-secondary-600">
+        Alternar Modo
+      </button>
+    </nav>
+  </header>
