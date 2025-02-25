@@ -1,9 +1,7 @@
 <div class="min-h-screen bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
   <app-header></app-header>
-  <div class="container mx-auto p-4">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <app-project-card></app-project-card>
-    </div>
-  </div>
+  <main class="container mx-auto p-4">
+    <router-outlet></router-outlet>
+  </main>
   <app-footer></app-footer>
 </div>
